@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+  font-family: 'Roboto Slab', serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.cover_area { 
+  height: 100vh;
+  width:100%;
+  background:darkblue;
+  background-position: center; 
+  background-size: cover;
+  color: white; 
+  }
+  
+  /* style for left logo */
+  .logo {
+    top: 2rem;
+    left: 1rem;
+    width: 100%; 
+   }
+  .logo h1{
+	  font-size:4em;
+	  padding:0.1em;
+  }
+  .logo h1 a{
+    color: white;
+  }
+    
+  
+  /* Position text in the middle */
+  .middle { 
+    text-align: center;
+  }
+   
+    
+  /* time box style */
+  .time{
+    overflow: hidden;  
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+  }
+.time h1{
+	font-size:7rem;
+	line-height:7rem;
+  padding:5rem 0;
+  }
+  
+.time_box{
+    width: 120px;
+    height: 120px;
+    margin: 0.5em;
+    padding:0.5em;
+    background-color: hsla(118, 56%, 91%, 0.082);
+    display:inline-block;
+    border-radius: 50%;
+    border:3px solid#ddd;
+  }
+  .time_box:hover{
+  color:green;
+  background: white;
+  border-color: green;
+  }
+.t_number{
+	font-size:5rem;
+  line-height:5rem;
+}
+.t_unit{
+	font-size:2rem;
+  line-height:3rem;
+}
+
+.social_link{} 
+
+.social_link a{
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem; 
+  margin:.2rem;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  border: 1px solid#ddd;
+  color: white;
+}
+.social_link a:hover{
+  color:green;
+  background: white;
+  border-color: green;
+}
