@@ -1,5 +1,5 @@
 // Set the date we're counting down to m/d/y/h/m/s
-var finalDate = new Date("Jan 01, 2023 00:00:00").getTime();
+var finalDate = new Date("Jan 01, 2024 00:00:00").getTime();
 
 
 // Update the count down every 1 second
